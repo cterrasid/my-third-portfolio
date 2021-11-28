@@ -10,22 +10,8 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        icon: "src/images/icon.png"
-      }
-    },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "./src/images/"
-      },
-      __key: "images"
-    },
     {
       resolve: "gatsby-plugin-root-import",
       options: {
@@ -51,6 +37,12 @@ module.exports = {
             tableName: `Social Networks`
           }
         ]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/containers/Layout`)
       }
     }
   ]
