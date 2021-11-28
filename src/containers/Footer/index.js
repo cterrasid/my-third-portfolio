@@ -10,7 +10,7 @@ const socialNetworks = [
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="wrapper">
       <div>
         <section>
           <Text Tag="h3" text="Clarette Terrasi Díaz" />

@@ -2,6 +2,10 @@
   font-family: "Outfit-Thin";
   src: url("../../assets/fonts/Outfit-Thin.ttf");
 }
+@font-face {
+  font-family: "Outfit-SemiBold";
+  src: url("../../assets/fonts/Outfit-SemiBold.ttf");
+}
 
 *,
 *::before,
@@ -16,4 +20,8 @@
 
 body {
   height: 100%;
+}
+
+.wrapper {
+  margin: 0 40px;
 }

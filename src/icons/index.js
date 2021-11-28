@@ -1,4 +1,5 @@
+import LocationIcon from "./SunIcon";
 import MoonIcon from "./MoonIcon";
 import SunIcon from "./SunIcon";
 
-export { MoonIcon, SunIcon };
+export { LocationIcon, MoonIcon, SunIcon };

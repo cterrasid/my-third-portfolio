@@ -1,19 +1,12 @@
 import React from "react";
-import { About, Footer, NavigationBar, Hero } from "Containers";
+import { About } from "Containers";
 
 const HomePage = () => {
   return (
-    <div>
-      <header>
-        <NavigationBar />
-        <Hero />
-      </header>
-      <main>
-        <About />
-        <section>Projects</section>
-      </main>
-      <Footer />
-    </div>
+    <main className="content wrapper">
+      <About />
+      <section>Projects</section>
+    </main>
   );
 };
 

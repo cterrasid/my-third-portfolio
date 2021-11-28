@@ -1,0 +1,54 @@
+.header {
+  margin: 0 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 70px;
+}
+
+.hero {
+  display: flex;
+  height: 120px;
+}
+
+.hero .thumbnail__image {
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+}
+
+.hero .thumbnail {
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info__title {
+  font-family: "Outfit-SemiBold", sans-serif;
+}
+
+.info__subtitle {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.info__location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 72px;
+}
+
+.info__location .text {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Outfit-SemiBold";
+  color: gray;
+}
