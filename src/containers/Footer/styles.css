@@ -1,4 +1,14 @@
-footer > div {
+.footer {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
+  height: 250px;
+}
+
+.footer__title {
+  text-transform: uppercase;
+}
+
+.footer__section .content {
+  font-size: 14px;
 }

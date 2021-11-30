@@ -1,0 +1,10 @@
+.title {
+  font-family: "Outfit-ExtraBold";
+  font-size: 32px;
+  margin: 0 0 32px 0;
+  text-align: center;
+}
+
+.title--second {
+  font-size: 24px;
+}

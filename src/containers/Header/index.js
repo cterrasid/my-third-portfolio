@@ -1,6 +1,6 @@
 import React from "react";
-import { LocationIcon, MoonIcon, SunIcon } from "Icons";
-import { Language, Thumbnail } from "Components";
+import { MoonIcon, LocationIcon } from "Icons";
+import { Thumbnail } from "Components";
 import "./styles.css";
 
 const Header = () => {
@@ -8,17 +8,11 @@ const Header = () => {
     <header className="header">
       <nav className="navbar">
         <MoonIcon />
-        <SunIcon />
-        <Language />
       </nav>
       <section className="hero">
-        <Thumbnail
-          image="https://via.placeholder.com/150"
-          description="placeholder image"
-        />
+        <Thumbnail image="" description="placeholder image" />
         <div className="info">
-          <h1 className="info__title">Clarette Terrasi Díaz</h1>
-          <h2 className="info__subtitle">Data | Development | Geography</h2>
+          <p className="info__title">Clarette Terrasi Díaz</p>
           <div className="info__location">
             <LocationIcon />
             <p className="text">Madrid</p>

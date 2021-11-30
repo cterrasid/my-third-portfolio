@@ -21,7 +21,15 @@
 }
 
 .hero .thumbnail {
+  align-self: center;
+  background: #8bf8d7;
+  border-radius: 100px;
+  color: #3e8671;
+  font-size: 24px;
+  font-weight: bold;
+  height: 60px;
   margin-right: 10px;
+  width: 60px;
 }
 
 .info {
@@ -42,13 +50,11 @@
 .info__location {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 72px;
+  color: gray;
 }
 
 .info__location .text {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Outfit-SemiBold";
-  color: gray;
 }

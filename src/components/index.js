@@ -1,6 +1,6 @@
 import Language from "./Language";
 import List from "./List";
-import Text from "./Text";
+import Heading from "./Heading";
 import Thumbnail from "./Thumbnail";
 
-export { Language, List, Text, Thumbnail };
+export { Language, List, Heading, Thumbnail };

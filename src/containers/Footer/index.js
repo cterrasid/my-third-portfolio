@@ -1,5 +1,6 @@
 import React from "react";
-import { Text, List } from "Components";
+import { List } from "Components";
+import { ArrowRightIcon } from "Icons";
 import "./styles.css";
 
 const socialNetworks = [
@@ -10,20 +11,21 @@ const socialNetworks = [
 
 const Footer = () => {
   return (
-    <footer className="wrapper">
-      <div>
-        <section>
-          <Text Tag="h3" text="Clarette Terrasi Díaz" />
-          <Text
-            Tag="p"
-            text="If you'd like to say hello, email clarette.terrasi@gmail.com."
-          />
-        </section>
-        <section>
-          <Text Tag="h3" text="Social" />
-          <List items={socialNetworks} />
-        </section>
-      </div>
+    <footer className="footer wrapper">
+      <section className="footer__section">
+        <p className="footer__title">Clarette Terrasi Díaz</p>
+        <p className="content">
+          If you'd like to say hello, email clarette.terrasi@gmail.com.
+        </p>
+      </section>
+      <section className="footer__section">
+        <p className="footer__title">Social</p>
+        <List
+          items={socialNetworks}
+          className="content"
+          icon={<ArrowRightIcon />}
+        />
+      </section>
     </footer>
   );
 };

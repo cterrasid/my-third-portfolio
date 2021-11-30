@@ -1,5 +1,6 @@
-import LocationIcon from "./SunIcon";
+import ArrowRightIcon from "./ArrowRightIcon";
+import LocationIcon from "./LocationIcon";
 import MoonIcon from "./MoonIcon";
 import SunIcon from "./SunIcon";
 
-export { LocationIcon, MoonIcon, SunIcon };
+export { ArrowRightIcon, LocationIcon, MoonIcon, SunIcon };
